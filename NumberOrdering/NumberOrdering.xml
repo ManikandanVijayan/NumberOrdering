@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NumberOrdering</name>
+    </assembly>
+    <members>
+        <member name="T:NumberOrdering.Controllers.SortController">
+            <summary>
+            SortController
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:NumberOrdering.Controllers.SortController.#ctor(BusinessService.INumberOrderingService)" -->
+        <member name="M:NumberOrdering.Controllers.SortController.GetLatestFileContent">
+            <summary>
+            Load content of latest saved file 
+            </summary>
+            <returns>Sorted List</returns>
+        </member>
+        <member name="M:NumberOrdering.Controllers.SortController.SortNumbers(System.Collections.Generic.List{System.Int32})">
+            <summary>
+            Save sorted numbers to file.
+            </summary>
+            <param name="numberList">Number list to be sorted</param>
+            <returns>Saved or not</returns>
+        </member>
+        <member name="T:NumberOrdering.Extensions.ExceptionHandlerMiddleware">
+            <summary>
+            ExceptionHandlerMiddleware
+            </summary>
+        </member>
+        <member name="M:NumberOrdering.Extensions.ExceptionHandlerMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)">
+            <summary>
+            ExceptionHandlerMiddleware
+            </summary>
+        </member>
+        <member name="M:NumberOrdering.Extensions.ExceptionHandlerMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Invoked when an error  or exception is raised
+            </summary>
+        </member>
+        <member name="M:NumberOrdering.Extensions.ExceptionHandlerMiddleware.HandleExceptionMessageAsync(Microsoft.AspNetCore.Http.HttpContext,System.Exception)">
+            <summary>
+            Handles the exception message and return as response in formatted manner
+            </summary>
+        </member>
+        <member name="T:NumberOrdering.Extensions.ExceptionMiddlewareExtensions">
+            <summary>
+            ExceptionMiddlewareExtensions
+            </summary>
+        </member>
+        <member name="M:NumberOrdering.Extensions.ExceptionMiddlewareExtensions.UseExceptionHandlerMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Add Exception Handler extension
+            </summary>
+        </member>
+    </members>
+</doc>
